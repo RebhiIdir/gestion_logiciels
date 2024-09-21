@@ -13,8 +13,8 @@ class DataBaseManager:
         try:
             self.conn = mysql.connector.connect(
                 host="localhost",
-                user="admin",
-                password="CORE66@@BEN@@_pedro",
+                user="", #choisir
+                password="", #choisir
                 database="huilerie",
                 auth_plugin='mysql_native_password'  # Spécifier le plugin d'authentification 
 
