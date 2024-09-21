@@ -12,7 +12,7 @@ class DataBaseManager:
         # etablir la connexion a la bdd
         try:
             self.conn = mysql.connector.connect(
-                host="localhost",
+                host="", #choisir
                 user="", #choisir
                 password="", #choisir
                 database="huilerie",
